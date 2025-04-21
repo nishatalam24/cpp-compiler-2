@@ -1,0 +1,18 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "apt-get update && apt-get install -y g++"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "node-pty": "^1.0.0"
+  },
+  "author": "Nishat",
+  "license": "MIT"
+}
